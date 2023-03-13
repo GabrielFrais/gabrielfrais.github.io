@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7 ANOS</title>
+    <link href="estilos/estilos.css" rel="stylesheet">
+    <link href="resources/fonte.ttf" rel="stylesheet">
+</head>
+<body>
+
+<div class="centro" id="inicial" onclick="iniciar()"><h3>Toque aqui para continuar</h3></div>
+
+<div class="centro" id="titulo"><h1>7 ANOS</h1> </div>
+
+<div id="principal">
+    <div class="texto" id="paragrafo"></div>
+
+    <div class="texto" id="pergunta"><p>Então gostaria de saber, me quer pro resto da sua vida?</p></div>
+
+    <div id="botoes">
+        <button id="butaoS" class="button instagram" onclick="DisseSim()">SIM</button>
+        <button id="butaoN" class="button instagram" onmouseover="porCima()" onclick="DisseNao()" >NÃO</button>
+    </div>
+</div>
+
+<div class="centro" id="popup">
+    <p id="popupTexto">Nossa, você está mesmo empenhada em apertar o NÃO, isso me magoou um pouco. <br>
+        Só por causa disso, vai ficar de castigo por um tempo.</p>
+</div>
+
+<div class="centro" id="disseNao">
+    <p id="ingles"></p>
+    <p id="traducao"></p>
+</div>
+
+
+<div id="disseSim">
+    <p class="texto" id="textoSIM"></p>
+    <p class="texto" id="teAmo">Te Amo ❤️</p>
+</div>
+
+
+<script src="scripts/main.js"></script>
+</body>
